@@ -49,8 +49,74 @@
 
 # ESERCIZIO 8.7
 
-def make_albun(artist_name:str , album_name:str , number_songs:int = None):
-    
+# def make_album(artist_name:str,album_name:str,number_songs:int = None): 
+#    if number_songs == None: 
+#       return{"artist_name":artist_name,"album_name":album_name}
+#    else: 
+#      return{"artist_name": artist_name,"album_name":album_name,"number_songs":number_songs}
+   
+# print(make_album("tha sup","Le basi","8"))
+# print(make_album("Adele","19"))
+# print(make_album("Sam Smith","The Thrill of It All","14"))
 
-    return (f" {artist_name} ")
+# ESERCIZIO 8.8
 
+# def make_album(artist, title):
+#     album:dict = {"artist": artist, "title": title}   
+#     return album
+
+# while True:
+#     artist:str = str(input("Artist: "))
+#     title:str = str(input("Title: "))
+
+#     album = make_album(artist, title)
+#     print(album)
+
+# ESERCIZIO 8.9
+
+# lista_messaggi: list = ["Labor march frei" , "I have a dream" , "Io rispetto l'omofobia"]
+
+# def show_messages (messaggi):
+
+#     for i in messaggi:
+
+#         print(i)
+
+# show_messages(lista_messaggi)
+
+
+# ESERCIZIO 8.10
+
+# lista_messaggi = ["Ciao","Come Stai","Tutto Bene?","A Presto!"]
+# def send_messages(messaggi):
+
+#     sent_messages=[]
+#     upper_bound = len (messaggi)
+#     print(f"{messaggi=}\n {sent_messages=}\n\n")
+#     for i in range (upper_bound):
+        
+#         message = messaggi.pop(0)
+#         sent_messages.append(message)
+
+#         print(f"{messaggi=}\n {sent_messages=}\n\n")
+# send_messages(lista_messaggi)
+
+# ESERCIZIO 8.11
+
+lista_messaggi = ["Ciao","Come Stai","Tutto Bene?","A Presto!"]
+def send_messages(messaggi):
+
+    sent_messages=[]
+    upper_bound = len (messaggi)
+    print(f"{messaggi=}\n {sent_messages=}\n\n")
+    for i in range (upper_bound):
+        
+        message = messaggi.pop(0)
+        sent_messages.append(message)
+
+        print(f"{messaggi=}\n {sent_messages=}\n\n")
+send_messages(lista_messaggi)
+
+# ESERCIZIO 8.12
+
+sandwich_items : list = ["hamburger" , "Cacio cavallo" , "Nduja"]
