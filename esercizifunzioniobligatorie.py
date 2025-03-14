@@ -74,15 +74,15 @@
 
 # ESERCIZIO 8.9
 
-# lista_messaggi: list = ["Labor march frei" , "I have a dream" , "Io rispetto l'omofobia"]
+list_messagge: list = ["Labor march frei" , "I have a dream" , "Io rispetto l'omofobia"]
 
-# def show_messages (messaggi):
+def show_messages (messaggi):
 
-#     for i in messaggi:
+    for i in messaggi:
 
-#         print(i)
+        print(i)
 
-# show_messages(lista_messaggi)
+show_messages(list_messagge)
 
 
 # ESERCIZIO 8.10
@@ -103,20 +103,25 @@
 
 # ESERCIZIO 8.11
 
-lista_messaggi = ["Ciao","Come Stai","Tutto Bene?","A Presto!"]
-def send_messages(messaggi):
+# lista_messaggi = ["Ciao","Come Stai","Tutto Bene?","A Presto!"]
+# def send_messages(messaggi):
 
-    sent_messages=[]
-    upper_bound = len (messaggi)
-    print(f"{messaggi=}\n {sent_messages=}\n\n")
-    for i in range (upper_bound):
+#     sent_messages=[]
+#     upper_bound = len (messaggi)
+#     print(f"{messaggi=}\n {sent_messages=}\n\n")
+#     for i in range (upper_bound):
         
-        message = messaggi.pop(0)
-        sent_messages.append(message)
+#         message = messaggi.pop(0)
+#         sent_messages.append(message)
 
-        print(f"{messaggi=}\n {sent_messages=}\n\n")
-send_messages(lista_messaggi)
+#         print(f"{messaggi=}\n {sent_messages=}\n\n")
+# send_messages(lista_messaggi)
 
 # ESERCIZIO 8.12
 
-sandwich_items : list = ["hamburger" , "Cacio cavallo" , "Nduja"]
+# sandwich_items : list = ["hamburger" , "Cacio cavallo" , "Nduja"]
+
+
+
+
+
